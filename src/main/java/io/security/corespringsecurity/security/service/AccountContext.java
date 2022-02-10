@@ -13,4 +13,8 @@ public class AccountContext extends User {
         super(account.getUsername(), account.getPassword(), authorities);
         this.account = account;
     }
+
+    public Account getAccount() {
+        return account;
+    }
 }
